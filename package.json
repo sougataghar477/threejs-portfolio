@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "three": "^0.171.0",
+    "vite": "^6.0.6"
+  },
+  "name": "threejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
