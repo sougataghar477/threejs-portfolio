@@ -10,7 +10,8 @@
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
   },
   "keywords": [],
   "author": "",
