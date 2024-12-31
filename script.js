@@ -10,7 +10,7 @@ renderer1.setSize(threejsContainer.offsetWidth, threejsContainer.offsetHeight);
 
 // Add sphere to scene1
 const textureLoader1 = new THREE.TextureLoader();
-const moonTexture1 = textureLoader1.load('./assets/2k_moon.jpg');
+const moonTexture1 = textureLoader1.load('https://cdn.discordapp.com/attachments/791564665070420002/1323597501248573460/image.png?ex=677517bb&is=6773c63b&hm=09a7d9ab7362b5ca3cdde04512638952f91718acef6713e6c01158899872ceb4&');
 const geometry1 = new THREE.SphereGeometry(2, 32, 32);
 const material1 = new THREE.MeshBasicMaterial({ map: moonTexture1 });
 const sphere1 = new THREE.Mesh(geometry1, material1);
@@ -40,7 +40,7 @@ projectsContainer.appendChild(renderer2.domElement);
 renderer2.setSize(projectsContainer.offsetWidth, projectsContainer.offsetHeight);
 
 // Add sphere to scene2
-const moonTexture2 = textureLoader1.load('./assets/jupiter.jpg');
+const moonTexture2 = textureLoader1.load('https://cdn.discordapp.com/attachments/791564665070420002/1323597160780005376/image.png?ex=6775176a&is=6773c5ea&hm=4c111dff69940c02ae68e31f48c01d2c76956bdcbd440d5c8b4019e3dbd11cbd&');
 const geometry2 = new THREE.SphereGeometry(2, 32, 32);
 const material2 = new THREE.MeshBasicMaterial({ map: moonTexture2 });
 const sphere2 = new THREE.Mesh(geometry2, material2);
